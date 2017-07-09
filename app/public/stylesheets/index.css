@@ -1,0 +1,128 @@
+		
+.masterBody
+{
+	padding-left: 10%;
+	padding-right: 10%;
+	height: 550px;
+	background-color: black;
+	opacity:0.85;
+}
+			
+.masterBody div
+{
+	float: left;
+}
+			
+.masterBody *
+{
+	font-family: "微软雅黑";
+	color: white;
+}
+			
+.leftContext
+{
+	width: 60%;
+	height: 100%;
+}
+			
+.titleInfo
+{
+	width: 80%;
+	height: 60%;
+	padding-top: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
+	/*background-color: white;*/
+}
+			
+.titleInfo h1
+{
+	font-size: 30px;
+	padding-bottom: 25px;
+}
+			
+.titleInfo p
+{
+	font-size: 20px;
+}
+			
+.rightContext
+{
+	width: 40%;
+	height: 100%;
+}
+			
+.rightContext form
+{
+	width: 80%;
+	height: 60%;
+	padding-top: 20%;
+	/*padding-left: 10%;
+	padding-right: 10%;*/
+}
+			
+.rightContext p
+{
+	padding-top: 20px;
+}
+			
+.rightContext input
+{
+	width: 100%;
+	height: 32px;
+	margin-top: 40px;
+	color: black;
+	border: 0px;
+	border-radius: 4px;
+}
+			
+.rightContext [type="email"]
+{
+	background-color: #FFFFB3;
+}
+			
+.rightContext [type="password"]
+{
+	background-color: #FFFFB3;;
+}
+			
+.rightContext [type="submit"]
+{
+	background-color: #2CBB4D;
+}
+			
+.downBody
+{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+
+.piction
+{
+	width: 100%;
+	height: 100px;
+	margin: 100px 0px 50px 0px;
+	text-align: center;
+}
+
+.piction img
+{
+	width: 80px;
+	height: 120px;
+}
+
+h4
+{
+	font-family: "微软雅黑";
+	font-size: 48;
+	color: darkgray;
+}
+
+.intext
+{
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 200px;
+}

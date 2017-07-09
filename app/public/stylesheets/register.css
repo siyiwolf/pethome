@@ -1,0 +1,152 @@
+header
+{
+	background-color: whitesmoke;
+}
+			
+.imgLOC
+{
+	background-color: black;
+}
+			
+.navLOC ul li a p
+{
+	color: black;
+}
+			
+.logLOC ul li p
+{
+	color: black;
+}
+			
+.registerBody
+{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+			
+.titleLog
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+			
+.titleLog h1
+{
+	font-family: 微软雅黑;
+	padding-bottom: 20px;
+}
+
+.phaseDiv ul
+{
+	width: 100%;
+	list-style: none;
+}
+			
+.phaseDiv li
+{
+	width: 25%;
+	padding-left: 40px;
+	display: inline-block;
+	background:no-repeat;
+	background-size: 30px 30px;
+}
+			
+.phaseDiv h4
+{
+	padding-bottom: 10px;	
+}
+			
+.phaseDiv p
+{
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+			
+#phare_one
+{
+	background-image: url(img/usrIMG/phase_one.png);
+}
+			
+#phare_two
+{
+	background-image: url(img/usrIMG/information.png);
+}
+			
+#phare_third
+{
+	background-image: url(img/usrIMG/connect.png);
+}
+			
+.opacityclass
+{
+	opacity: 0.1;
+}
+
+.divRegister
+{
+	margin-top: 40px;
+	width: 100%;
+	height: auto;
+}
+			
+.phaseRigh
+{
+	width: 66%;
+	height: 100%;
+	float: left;
+}
+			
+.phaseLeft
+{
+	width: 25%;
+	margin: 20px;
+	float: left;
+}
+			
+.headDiv, .listDiv
+{
+	padding: 15px;
+	border: solid 1px black;
+}
+			
+.listDiv li
+{
+	list-style: none;
+	padding: 8px;
+}
+			
+.pname
+{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+			
+.tip
+{
+	font-family: "微软雅黑";
+	font-size: 10px;
+	padding-bottom: 15px;
+}
+			
+.phaseRigh input
+{
+	height: 28px;
+	width: 80%;
+}
+			
+.phaseRigh [type="submit"]
+{
+	background-color: #2CBB4D;
+}
+			
+.phaseRigh [type="checkbox"]
+{
+	height: 18px;
+	width: auto;
+}
+			
+.phaseRigh h4
+{
+	padding-bottom: 20px;
+}
+			

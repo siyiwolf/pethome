@@ -2,6 +2,32 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/find.css')
   body
+    header
+      div.blank
+        div.lhcontex
+          div.imgloc
+            a(href = '/')
+              img(src = '/images/img_0025.png')
+           div.textloc
+             a(href = '/')
+               p 网站介绍
+           div.textloc
+             a(href = '/') 
+               p 特色说明
+           div.textloc
+             a(href = '/')
+               p 市场推广
+         div.rhcontext
+           form(action = '' method = 'get')
+             input(type = 'search' value = '搜索')
+           ul
+             li
+               a(href = '/register')
+                 p 注册
+             li 或
+             li 
+               a(href = '/login')
+                 p 登录
     block content

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/headerCSS.css"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/register.css"/>		
+		<style type="text/css">
+			#phare_one
+			{
+				background-image: url(images/usrIMG/phase_one.png);
+			}
+			
+			#phare_two
+			{
+				background-image: url(images/usrIMG/information.png);
+			}
+			
+			#phare_third
+			{
+				background-image: url(images/usrIMG/connect.png);
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="imgLOC">
+				<a href="index.html"><img src="images/logIMG/img_0025f.png" width="48" height="48"/></a>
+			</div>
+			
+			<div class="navLOC">
+				<ul>
+					<li><a href="#"><p>网站介绍</p></a></li>
+					<li><a href="#"><p>特色说明</p></a></li>
+					<li><a href="#"><p>市场推广</p></a></li>
+				</ul>
+			</div>
+			<div class="seachLOC">
+				<form action="register" method="post">
+					<input type="search" value="搜索"/>
+				</form>
+			</div>
+			
+			<div class="logLOC">
+				<ul>
+					<li><a href="login.html"><p>登录</p></a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="clear"></div>
+		<div class="registerBody">
+			<div class="titleLog">
+				<h1>宠物之家</h1>
+				<p>这里充满爱，感受爱与奉献的温暖，欢迎您的到来和加入</p>
+			</div>
+			<div class="phaseDiv">
+				<ul>
+					<li class="phare_li" id="phare_one">
+						<h4>步骤1</h4>
+						<p>创建个人帐号</p>
+					</li>
+					<li class="phare_li opacityclass" id="phare_two">
+						<h4>步骤2</h4>
+						<p>填写个人信息</p>
+					</li>
+					<li class="phare_li opacityclass" id="phare_third">
+						<h4>步骤3</h4>
+						<p>关注喜欢的宠物和朋友</p>
+					</li>
+				</ul>
+			</div>
+			<div class="divRegister">
+				<div class="phaseRigh">
+					<div class="onePhaseDiv">
+						<h4>创建一个属于自己的帐号</h4>
+						<form action="createIDAction" method="post">
+							<p class="pname">帐号</p>
+							<input type="text" placeholder="请您创建一个帐号名" />
+							<p class="tip">这个成为登录网站的凭证</p>
+							<p class="pname" id="id">邮箱地址</p>
+							<input type="email" placeholder="请输入您的邮箱"/>
+							<p class="tip">网站将通过这个邮箱将最新资讯传递给您</p>
+							<p class="pname">密码</p>
+							<input type="password" placeholder="请输入您的密码"/>
+							<p class="tip">请记住您的密码，请您注意保护自己的隐私</p>
+							<p class="pname">确认密码</p>
+							<input type="password" placeholder="请您再次输入您的密码"/>
+							<p class="tip">请您保证密码输入一致</p>
+							<input id="createID" type="submit" value="创建"/>
+						</form>
+					</div>
+					<div class="twoPhaseDiv hideDiv">
+						<h4>填写您的个人信息</h4>
+						<form action="register.html" method="post">
+							<p class="pname">姓名</p>
+							<input type="text" placeholder="请填写您的名字" />
+							<p class="tip">您的称呼</p>
+							<p class="pname">手机</p>
+							<input type="number" placeholder="请输入您的手机号"/>
+							<p class="tip">如有必要，我们将向您手机发送验证消息</p>
+							<p class="pname">家庭住址</p>
+							<input type="text" placeholder="请输入家庭住址"/>
+							<p class="tip">领养家庭，我们将会提供宠物的卫生指导</p>
+							<p class="pname">选择您喜欢的宠物类型</p>
+							<input type="checkbox" name="pet" value="dog"/>宠物狗<br />
+							<input type="checkbox" name="pet" value="cat"/>宠物猫<br />
+							<p class="tip">我们将根据您的选择，推荐合适的宠物给您</p>
+							<input id="createInfo" type="submit" value="继续"/>
+						</form>
+					</div>
+					<div class="thirdPhaseDiv hideDiv">
+						<div class="imgLan">
+							<ul>
+								<li>
+									<img src="images/usrIMG/default.jpg"/ title="张山">
+									<p align="center">张山</p>
+								</li>
+								<li>
+									<img src="images/usrIMG/default.jpg"/ title="张山">
+									<p align="center">张山</p>
+								</li>
+								<li>
+									<img src="images/usrIMG/default.jpg"/ title="张山">
+									<p align="center">张山</p>
+								</li>
+								<li>
+									<img src="images/usrIMG/default.jpg"/ title="张山">
+									<p align="center">张山</p>
+								</li>
+								<li>
+									<img src="images/usrIMG/default.jpg"/ title="张山">
+									<p align="center">张山</p>
+								</li>
+							</ul>
+						</div>
+                    	<div class="imgLan hideDiv">
+                        	
+                    	</div>
+						<p id="moreFellowPerson" class="blue" align="right">更多关注的人</p>	
+					</div>
+				</div>
+				<div class="phaseLeft">
+					<div class="headDiv">
+						<h4>欢迎加入宠物之家</h4>
+					</div>
+					<div class="listDiv">
+						<ul>
+							<li>成为爱心者</li>
+							<li>成为领养者</li>
+							<li>成为志愿者</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+		<footer>
+			<div class="footcontext">
+				<div class = "rownum">
+					<h3>宠物之家</h3>
+					<p>© 2018</p>
+				</div>
+				<div class = "rownum">
+					<h3>网站特色</h3>
+					<br />
+					<ul>
+						<li><a href="#">宠物领养</a></li>
+						<li><a href="#">经验交流</a></li>
+						<li><a href="#">特性配对</a></li>
+						<li><a href="#">消息反馈</a></li>
+					</ul>
+				</div>
+				<div class = "rownum">
+					<h3>社区交流</h3>
+					<br />
+					<ul>
+						<li><a href="#">猫世界</a></li>
+						<li><a href="#">狗天地</a></li>
+						<li><a href="#">其他</a></li>
+					</ul>
+				</div>
+				<div class = "rownum">
+					<h3>活动介绍</h3>
+					<br />
+					<ul>
+						<li><a href="#">定期活动</a></li>
+						<li><a href="#">活动申请</a></li>
+						<li><a href="#">个人风采</a></li>
+						<li><a href="#">宠物与我</a></li>
+					</ul>
+				</div><div class = "rownum">
+					<h3>资源分享</h3>
+					<br />
+					<ul>
+						<li><a href="#">招领启示</a></li>
+						<li><a href="#">宠物走失</a></li>
+						<li><a href="#">最新宠物</a></li>
+					</ul>
+				</div>
+				<div class = "rownum">
+					<h3>合作单位</h3>
+					<br />
+					<ul>
+						<li><a href="http://www.wuhan.gov.cn/">武汉市政厅</a></li>
+						<li><a href="http://www.whxc.org.cn//">武汉市政府宣传部</a></li>
+						<li><a href="http://www.whwsjs.gov.cn/">武汉市卫生局</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

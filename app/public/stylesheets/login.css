@@ -1,0 +1,56 @@
+
+.LogIMG
+{
+	background-color: black;
+	width: 68px;
+	height: 68px;
+	border-radius: 68px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+			
+.loginLoc
+{
+	margin-top: 100px;
+	align-content: center;
+	width: 100%;
+	/*background-color: red;*/
+}
+
+#logArea
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+			
+#logArea input
+{
+	margin-left: 10%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	width: 80%;
+	height: 28px;
+}
+			
+.loginLoc>p
+{
+	border: solid 1px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+			
+p a
+{
+	color: blue;
+}
+			
+#logArea [type="submit"]
+{
+	background-color: #2CBB4D;
+}
